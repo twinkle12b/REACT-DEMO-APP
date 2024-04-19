@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Rendering all the React components, we are grabbing the div element from index.html 
+// with Id of root and hooking on it , more or less to create elements within the div element
+
 root.render(
   <React.StrictMode>
     <App />
